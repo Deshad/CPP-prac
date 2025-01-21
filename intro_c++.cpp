@@ -160,7 +160,17 @@ int main(){
     std::cout<<greeting<<std::endl;
 }
 */
+/*Some string Functions
+int main(){
+    std::string greeting="hello";
+    //greeting.insert(3, "         ");
+    //greeting.erase(2,2);//erases two elements
+    //greeting.erase(2);
+    greeting.replace(0,4,"yes");
+    std::cout<<greeting<<std::endl;
+}
 
+*/
 
 
 
