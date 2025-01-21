@@ -192,8 +192,19 @@ int main()
 
 }
 */
+/*Operator precendece
+int main()
+{
+    //cout<<10/4.;
+    //std::cout<<20%5;
+    double x=10;
+    double y=100;
+    (y=x)=100;
+    cout<<x<<"\t"<<y;
 
+}
 
+*/
 
 
 
