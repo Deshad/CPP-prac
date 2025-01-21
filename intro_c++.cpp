@@ -205,7 +205,22 @@ int main()
 }
 
 */
+/*If else Loop Branching
 
+*/
+
+int main()
+{
+    int age=27;
+    if(age<18)
+    {
+    std::cout<<"your are a minor"<<std::endl;
+    }
+    else
+    {
+        cout<<"you are adult"<<std::endl;
+    }
+}
 
 
 
