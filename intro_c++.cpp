@@ -56,12 +56,25 @@ int main()
 
 
 }*/
-
+/*CHAR DATaTYPE
 int main()
 {
-    char x = 129;//for char we have to use single quotes as double quotes are reserved for strings in c++
-    //the 65 char value is A
+    unsigned char x = 131;//for char we have to use single quotes as double quotes are reserved for strings in c++
+    //the 65 char value is A 
     cout<<x<<std::endl;
+}
+
+*/
+/*Escape sequence
+int main()
+{
+    cout<<"Hello\"There\""<<std::endl;
+}
+
+*/
+int main(){
+    bool pizza=0;//to set flags in loops 
+    cout<<pizza;
 }
 
 
