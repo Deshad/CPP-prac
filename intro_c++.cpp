@@ -1,4 +1,5 @@
 // intro_c++.cpp
+#include <cfloat>
 #include <climits>
 #include <ios>
 #include <iostream>
@@ -83,7 +84,18 @@ int main(){
 }
 */
 
+/*FLoating Data Type
+int main(){
+    float a=10.0/3;//
+    a=a*10000000000;
+    double b;
+    long double c;
+    cout<<std::fixed<<a<<std::endl;
+    cout<<"Printing the number of digits upto "<< FLT_DIG<<std::endl;
+}
 
+
+*/
 
 
 
