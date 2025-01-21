@@ -59,7 +59,7 @@ int main()
 
 int main()
 {
-    char x = 65;//for char we have to use single quotes as double quotes are reserved for strings in c++
+    char x = 129;//for char we have to use single quotes as double quotes are reserved for strings in c++
     //the 65 char value is A
     cout<<x<<std::endl;
 }
