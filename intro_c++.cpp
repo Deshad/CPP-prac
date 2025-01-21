@@ -105,6 +105,20 @@ int()
     const int x=10;
 }
 */
+/*Mathematcial operator #include<cmath>
+int main(){
+
+    cout<<sqrt(2)<<std::endl;
+    cout<<ceil();
+    cout<<round();
+    cout<<fmax();
+    cout<<fmin();
+    cout<<trunk();
+    cout<<abs();
+
+}
+
+*/
 
 
 
