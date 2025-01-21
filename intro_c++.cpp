@@ -206,9 +206,6 @@ int main()
 
 */
 /*If else Loop Branching
-
-*/
-
 int main()
 {
     int age=27;
@@ -221,6 +218,9 @@ int main()
         cout<<"you are adult"<<std::endl;
     }
 }
+*/
+
+
 
 
 
