@@ -172,6 +172,21 @@ int main(){
 
 */
 
+/*String Function 2
+int main()
+{
+    std::string greeting="What the hell";
+    //std::cout<<greeting.find("hell")<<std::endl;
+    //td::cout<<greeting.substr()
+    //std::cout<<greeting.compare("");
+
+}
+
+*/
+int main()
+{
+    
+}
 
 
 
