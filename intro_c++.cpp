@@ -267,7 +267,7 @@ int main(){
     return 0;
 }
 */
-
+/*for loop
 int main()
 {
     for(int i =10;i>0;i--)
@@ -277,6 +277,10 @@ int main()
     }
     return 0;
 }
+
+
+*/
+
 
 
 
