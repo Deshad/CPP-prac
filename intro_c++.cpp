@@ -183,10 +183,16 @@ int main()
 }
 
 */
+
+/*Auto sign feature
+
 int main()
 {
-    
+    auto x = 5u;
+
 }
+*/
+
 
 
 
