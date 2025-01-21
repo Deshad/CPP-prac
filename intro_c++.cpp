@@ -96,6 +96,16 @@ int main(){
 
 
 */
+/*Constant dataTYPE
+#define X 10
+int()
+{
+    int x=5;//literal constant 
+    //symbolic consatnts
+    const int x=10;
+}
+*/
+
 
 
 
