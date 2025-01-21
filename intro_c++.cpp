@@ -219,6 +219,45 @@ int main()
     }
 }
 */
+/*
+int main()
+{
+    std::string name ="gagan";
+    std::string guess;
+    std::cin >> guess;
+
+    if (guess==name){
+        cout<<"correct"<<std::endl;
+    }
+    else{
+        cout<<"not correct";
+    }
+    return 0;
+
+}
+*/
+/*Switch
+int main()
+{
+
+    int age;
+    cin>>age;
+    switch(age)
+    {
+        case 13:
+            std::cout<<"you are right";
+            break;
+        case 14:
+        std::cout<<"you are 14";
+        break;
+
+    }
+    return 0;
+
+}
+
+*/
+
 
 
 
