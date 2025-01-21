@@ -134,6 +134,33 @@ int main()
 }
 
 */
+/*
+int main(){
+
+    std::string greeting;
+
+    std::cin >>greeting;
+    std::cout<<greeting<<std::endl;
+    std::string left_over;
+    std::cin>>left_over;
+    std::cout<<left_over<<std::endl;
+    //std::string left_over;
+    std::cin>>left_over;
+    std::cout<<left_over<<std::endl;
+
+
+
+}
+
+*/
+/*String line 
+int main(){
+    std::string greeting;
+    getline(std::cin,greeting);
+    std::cout<<greeting<<std::endl;
+}
+*/
+
 
 
 
