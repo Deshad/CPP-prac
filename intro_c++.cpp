@@ -1,5 +1,6 @@
 // intro_c++.cpp
 #include <climits>
+#include <ios>
 #include <iostream>
 #include <cmath>//math library/header
 
@@ -72,10 +73,16 @@ int main()
 }
 
 */
+
+
+/*BOOL dataTYPE
+
 int main(){
-    bool pizza=0;//to set flags in loops 
-    cout<<pizza;
+    bool pizza=false;//to set flags in loops 
+    cout<<std::boolalpha<<pizza<<std::endl;
 }
+*/
+
 
 
 
