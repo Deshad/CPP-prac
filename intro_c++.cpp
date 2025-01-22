@@ -349,6 +349,36 @@ int main()
 
 */
 
+/*1/0 Game
+using a do while loop with switch statement
+int main()
+{
+    int choice;
+    
+    do{
+    std::cout<<"1-Play the Game\n"<<"0- Exit"<<std::endl;
+    std::cin>>choice;
+    switch(choice)
+    {
+        case 0:
+            std::cout<<"Exting the game"<<std::endl;
+            return 0;
+        case 1:
+            std::cout<<"Playing the game"<<std::endl;
+            break ;
+        default:
+            std::cout<<"Invalid choice"<<std::endl;
+        
+    }
+
+
+    }
+    while(choice!=0);
+    
+
+}
+
+*/
 
 
 
