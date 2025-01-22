@@ -280,6 +280,26 @@ int main()
 
 
 */
+/*doWhile Loop
+
+int main()
+{
+    std::string password="hello";
+    std::string guess;
+
+    do {
+        std::cout<<"Guess the pass";
+        std::cin>>guess;
+
+
+    
+    }while (guess!=password);
+
+}
+
+*/
+
+
 
 
 
