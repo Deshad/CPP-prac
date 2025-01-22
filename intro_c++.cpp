@@ -298,6 +298,31 @@ int main()
 }
 
 */
+/*break
+int main()
+{
+    std::string sentence = "hello";
+    for(int i=0;i<sentence.length();i++)
+    {
+        if(sentence[i] == 'o'){
+            std::cout<<i;
+            break;
+            
+        }
+        
+    }
+
+}
+
+
+*/
+
+/*continue
+*/
+
+
+
+
 
 
 
