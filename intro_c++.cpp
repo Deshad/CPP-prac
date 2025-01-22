@@ -4,7 +4,6 @@
 #include <ios>
 #include <iostream>
 #include <cmath>//math library/header
-
 using std::cout;//standard 
 using std::cin;//standar
 //function
@@ -470,5 +469,73 @@ int main()
 
 
 */
+
+/* A number guessing game with array
+*/
+void printArray(const int guesses[], int count) {
+    std::cout << "You made " << count << " guesses: ";
+    for (int i = 0; i < count; ++i) {
+        std::cout << guesses[i];
+        if (i < count - 1) {
+            std::cout << ", ";
+        }
+    }
+    std::cout << std::endl;
+}
+
+// Function  playGame
+void playGame() {
+    int random = rand() % 100; //number between 0 and 99
+    int guess;
+    int guesses[100]; 
+    int count = 0;   
+
+    std::cout << "Guess a number between 0 and 99: ";
+    std::cin >> guess;
+
+    while (true) {
+        guesses[count++] = guess; //record guess
+
+        if (guess > random) {
+            std::cout << "Too high, guess lower: ";
+            std::cin >> guess;
+        } else if (guess < random) {
+            std::cout << "Too low, guess higher: ";
+            std::cin >> guess;
+        } else {
+            std::cout << "Congratulations, you guessed it!" << std::endl;
+            break;
+        }
+    }
+
+    //  print the array and count
+    printArray(guesses, count);
+}
+
+int main() {
+    int choice;
+
+    // Seed random number generator
+    std::srand(std::time(0));
+
+    do {
+        std::cout << "1-Play the Game\n0- Exit" << std::endl;
+        std::cin >> choice;
+
+        switch (choice) {
+            case 0:
+                std::cout << "Exiting the game" << std::endl;
+                return 0;
+            case 1:
+                std::cout << "Playing the game" << std::endl;
+                playGame(); // Call playGame
+                break;
+            default:
+                std::cout << "Invalid choice" << std::endl;
+        }
+    } while (choice != 0);
+
+    return 0;
+}
 
 
