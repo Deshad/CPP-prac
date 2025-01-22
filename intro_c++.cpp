@@ -379,17 +379,67 @@ int main()
 }
 
 */
+/*Number guess game
+#include <iostream>
+#include <cstdlib> // rand()
+#include <ctime>   // seeding rand()
 
+// Function definition for playGame
 
-
-
-
-
-
-
-
-
-
-
+void playGame() {
+    int random = rand() % 100; // random number between 0 and 99
+    int guess;
     
+    std::cout << "Guess a number between 0 and 99: ";
+    std::cin >> guess;
+    
+    while (true) {
+        if (guess > random) {
+            std::cout << "Too high, guess lower: ";
+            std::cin >> guess;
+        } else if (guess < random) {
+            std::cout << "Too low, guess higher: ";
+            std::cin >> guess;
+        } else {
+            std::cout << "Congratulations, you guessed it!" << std::endl;
+            break;
+        }
+    }
+}
+
+int main() {
+    int choice;
+
+    // Seed 
+    std::srand(std::time(0));//srand(time(NULL)); // Using current time as seed
+    
+    do {
+        std::cout << "1-Play the Game\n0- Exit" << std::endl;
+        std::cin >> choice;
+
+        switch (choice) {
+            case 0:
+                std::cout << "Exiting the game" << std::endl;
+                return 0;
+            case 1:
+                std::cout << "Playing the game" << std::endl;
+                playGame(); // Call playGam 
+                break;
+            default:
+                std::cout << "Invalid choice" << std::endl;
+        }
+    } while (choice != 0);
+
+    return 0;
+}
+
+*/
+
+
+int main()
+{
+    
+}
+
+
 
