@@ -4,6 +4,7 @@
 #include <ios>
 #include <iostream>
 #include <cmath>//math library/header
+#include <vector>
 using std::cout;//standard 
 using std::cin;//standar
 //function
@@ -471,7 +472,7 @@ int main()
 */
 
 /* A number guessing game with array
-*/
+
 void printArray(const int guesses[], int count) {
     std::cout << "You made " << count << " guesses: ";
     for (int i = 0; i < count; ++i) {
@@ -537,5 +538,18 @@ int main() {
 
     return 0;
 }
+
+*/
+/*vector
+int main()
+{
+    std::vector<int> data ={1,2,3};
+    data.push_back(12);
+    std::cout<<data[data.size()-1]<<std::endl;
+}
+
+
+*/
+
 
 
