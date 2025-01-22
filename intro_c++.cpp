@@ -318,6 +318,20 @@ int main()
 */
 
 /*continue
+int main()
+{
+    std::string sentence = "hello";
+    for(int i=0;i<sentence.length();i++)
+    {
+        if(sentence[i] == 'o'){
+            continue;
+        }
+        std::cout<<sentence[i];
+        
+    }
+
+}
+
 */
 
 
