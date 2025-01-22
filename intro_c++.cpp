@@ -434,12 +434,24 @@ int main() {
 }
 
 */
-
+/*Array
 
 int main()
 {
     
+   int guess[]={1,2,3,4,5,5,6,7};
+   int size = sizeof(guess)/sizeof(guess[0]);//to find i in C++ array
+   cout<<size<<std::endl;
+   for(int i=0;i<size+10;i++)
+   {
+     std::cout<<guess[i]<<"\t";
+   }
+
+   
+
 }
+*/
+
 
 
 
