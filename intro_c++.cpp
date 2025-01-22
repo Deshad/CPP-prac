@@ -334,6 +334,22 @@ int main()
 
 */
 
+/*Condiitonal operators
+
+int main()
+    {
+        int guess;
+        int answer=10;
+        cout<<"Guess a number between 1 and 100";
+        cin>>guess;
+        int points=guess==answer?10:0;//conditional operator
+        std::cout<<"points: "<<points<<std::endl;
+        
+    }
+
+*/
+
+
 
 
 
