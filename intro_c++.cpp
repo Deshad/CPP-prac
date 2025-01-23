@@ -550,6 +550,10 @@ int main()
 
 
 */
-
-
-
+/*STL array
+#include <array>
+int main()
+{
+    std::array<int,20> data ={1,2,3};
+}
+*/
