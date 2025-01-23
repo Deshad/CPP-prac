@@ -55,3 +55,20 @@ int main()
     }
 }
 */
+/*nested vector
+int main()
+{
+    std::vector<std::vector<int>>  grades= {{85,92,78},{95,85,90},{70,82,98}};
+    for (int i=0;i<grades.size();i++)
+    {
+        for(int j=0;j<grades[i].size();j++)
+        {
+            std::cout<<grades[i][j]<<" ";
+        }
+        std::cout<<std::endl;
+    
+    }
+}
+
+*/
+
