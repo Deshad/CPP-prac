@@ -4,6 +4,7 @@
 #include <ios>
 #include <iostream>
 #include <cmath>//math library/header
+#include <vector>/**/
 #include <vector>
 using std::cout;//standard 
 using std::cin;//standar
@@ -557,3 +558,21 @@ int main()
     std::array<int,20> data ={1,2,3};
 }
 */
+
+/*Range based for loop
+int main()
+{
+    int data[]={1,2,3,4,5};
+    for(int i:data){
+        std::cout<<i<<"\t";
+    }
+    /*simple loop 
+    for(int i=0;i<5;i++)
+    {
+        std::cout<<data[i]<<"\t";
+    }   
+    std::cout<<"\n";
+    */
+    
+
+
