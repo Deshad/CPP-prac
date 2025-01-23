@@ -566,13 +566,48 @@ int main()
     for(int i:data){
         std::cout<<i<<"\t";
     }
-    /*simple loop 
+    */
+    /*
+    simple loop 
     for(int i=0;i<5;i++)
     {
         std::cout<<data[i]<<"\t";
     }   
     std::cout<<"\n";
     */
+    /*Input and output stream
+
+      int main()
+    {
+        std::ofstream file("hello.txt",std::ios::app); //append mode
+
+        if(file.is_open()){
+            std::cout<<"file opened successfully\n";
+        } else
+        {
+            std::cout<<"file not opened\n";
+        }
+        std::vector<std::string> data;
+        data.push_back("hello");
+        data.push_back("world");
+        data.push_back("!");
+        for(std::string s:data){
+            file<<s<<"\n";//everytime yo compile it will overwrite on the previous text
+        }
+        
+
+
+        file.close();
+        return 0;
+    }
+
+    
+    */
+    #include <fstream>
+
+
+  
     
 
 
+ 
