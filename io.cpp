@@ -39,13 +39,19 @@ int main()
 }
 
 */
-void saveq
+/* multidimensional array
 
-void play_game()
+int main()
 {
-    switch (choice)
+    int grades[][3]={{85,92,78},{95,85,90},{70,82,98}};
+    for (int i=0;i<3;i++)
     {
-        case 0:
-        std::cout
+        for(int j=0;j<3;j++)
+        {
+            std::cout<<grades[i][j]<<" ";
+        }
+        std::cout<<std::endl;
+    
     }
 }
+*/
