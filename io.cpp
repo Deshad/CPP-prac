@@ -224,6 +224,39 @@ int main()
 }
 
 */
+/*template&overloading with array
+template<typename T>
+void swap(T a[], T b[],int size)
+{
+    for (int i=0;i<size;i++)
+    {
+       T temp=a[i];
+       a[i]=b[i];
+       b[i]=temp;
+
+    }
+}
+int main()
+{
+    int nines[]={9,9,9,9};
+    int ones[]={1,1,1,1};
+    for(int i=0;i<4;i++)
+    {
+        std::cout<<nines[i]<<" ";
+        std::cout<<ones[i]<<" ";
+    }
+    swap(nines,ones,4);
+    std::cout<<"\nAfter swapping : ";
+    for(int i=0;i<4;i++)
+    {
+        std::cout<<nines[i]<<" ";
+        std::cout<<ones[i]<<" ";
+    
+
+}
 
 
+}
+
+*/
 
