@@ -71,4 +71,40 @@ int main()
 }
 
 */
+/*
 
+void print_array(int arr[], int size)
+{
+    for(int i=0;i<size;i++)
+    {
+        std::cout<<arr[i]<<"\t";
+    }
+}
+    
+int main()
+{
+    int data[]={1,2,3};
+    print_array(data,3);
+}
+
+*/
+/*swapping 
+void swap(  int &a, int &b)//passing by reference to avoid making a copy of the value
+{
+    int temp=a;
+    a=b;
+    b=temp;
+    std::cout<<"after swapping : a="<<a<<" b="<<b<<std::endl;
+}
+
+int main()
+{
+    int a=5, b=10;
+    std::cout<<"before swapping : a="<<a<<" b="<<b<<std::endl;
+    swap(a,b);
+
+}
+
+*/
+
+ 
