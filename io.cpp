@@ -136,4 +136,31 @@ int main()
 
 }
 */
+/* overloading example with struct
+struct Rectangle
+{
+    double length;
+    double width;
+    double area(double length, double width)
+    {
+        return length*width;
+    }
+    double area(double length)//for square
+    {
+        return length*length;
+
+    }
+
+
+};
+int main ()
+{
+    Rectangle rect;
+    rect.length=5;
+    rect.width=10;
+    std::cout<<"Area is "<<rect.area(rect.length)<<std::endl;
+    return 0;
+
+}
+*/
 
