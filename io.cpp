@@ -106,5 +106,34 @@ int main()
 }
 
 */
+/*Function Overloading
 
- 
+#include<string>
+
+void swap(int a, int b)
+{
+    int temp=a;
+    a=b;
+    b=temp;
+    std::cout<<" a="<<a<<" b="<<b<<std::endl;
+
+
+}
+void swap(std::string &a ,std::string &b)
+{
+    std::string temp=a;
+    a=b;
+    b=temp;
+    std::cout<<" a="<<a<<" b="<<b<<std::endl;
+
+}
+int main()
+{
+    std::string first_anme="Gagan";
+    std::string last_name="Deshad";
+    std::cout<<"Before swapping : first_name="<<first_anme<<" last_name="<<last_name<<std::endl;
+    swap(first_anme,last_name);
+
+}
+*/
+
