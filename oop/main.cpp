@@ -1,16 +1,20 @@
 #include <iostream>
 
-struct User 
-{   //by defualt, struct members are public
+class User 
+{   //by defualt, class members are private
+    std::string status="Active";
     
-   std::string get_status()
+    public:
+    
+    std::string first_name;//this is a data member of class User
+    std::string last_name;
+    std::string get_status()
    {
     return status;
    }
-    std::string first_name;
-    std::string last_name;
-    private:
-        std::string status;
+     
+    
+        
 
 
 };
