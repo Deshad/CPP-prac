@@ -76,7 +76,16 @@ int main()
 }
 */
 /*Constructor & Destructor
-class User 
+ std::cout<<"Destructor\n";
+    }
+     
+    
+        
+
+
+};
+int add_user_if_not_exist(std::vector<User> &users,User user)
+{class User 
 {   //by defualt, class members are private
     std::string status="Active";
     
@@ -100,9 +109,60 @@ class User
     }
     ~User()//creating a destructor for class User
     {
-        std::cout<<"Destructor\n";
+       
+    for(int i=0;i<users.size();i++)
+    {
+        if(users[i].first_name==user.first_name &&
+            users[i].last_name==user.last_name)
+        {
+            return i;
+        }
     }
-     
+    users.push_back(user);
+    return users.size()-1;
+}
+
+int main() 
+{
+    User user("John", "bhat","active");
+    std::cout<<user.get_status()<<std::endl;
+
+}
+*/
+/*getter and setters
+
+class User 
+{   //by defualt, class members are private
+    std::string status="Active";
+    
+    public:
+    
+        std::string first_name;//this is a data member of class User
+        std::string last_name;
+        std::string get_status()//this is a getter
+        {
+            return status;
+        }
+        void set_status(std::string status)//this is a setter
+        {
+            if (status=="active" || status=="inactive")
+            {
+                this->status=status;
+
+            }
+            else {
+            {
+                std::cout<<"Invalid status. Status should be either 'active' or 'inactive'.";
+            }
+            }
+            
+        }
+
+    User()
+    {
+        
+    }
+    
     
         
 
@@ -124,10 +184,13 @@ int add_user_if_not_exist(std::vector<User> &users,User user)
 
 int main() 
 {
-    User user("John", "bhat","active");
-    std::cout<<user.get_status()<<std::endl;
+   User user;
+   user.set_status("active");
+   std::cout<<user.get_status()<<std::endl;
+
 
 }
+
 */
 
 
