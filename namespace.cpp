@@ -17,4 +17,6 @@ int main()
 {
     int data[] = {1, 2, 3, 4, 5};
     utils::print_array(data, 5);//namespace access
-    std::cout << "data[
+    std::cout << "data[0] = " << data[0] << std::endl;
+    return 0;
+}

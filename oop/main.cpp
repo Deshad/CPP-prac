@@ -358,6 +358,91 @@ std::cout<<"User Output Details:"<<user<<std::endl;//output
 }
 */
 
+/*Friend Function
+
+class User 
+{   static int user_count; //static int user_count=0  x;//can assign static value inline
+    
+    std::string status="Active";
+    
+    public:
+        static int get_user_count()
+        {
+            return user_count;//returning static data member
+        }
+        std::string first_name;//this is a data member of class User
+        std::string last_name;
+        std::string get_status()//this is a getter
+        {
+            return status;
+        }
+        void set_status(std::string status)//this is a setter
+        {
+            if (status=="active" || status=="inactive")
+            {
+                this->status=status;
+
+            }
+            else {
+            {
+                std::cout<<"Invalid status. Status should be either 'active' or 'inactive'.";
+            }
+            }
+            
+        }
+
+    User()
+    {
+        user_count++;//incrementing static data member
+        
+    }
+    User(std::string first_name, std::string last_name,std::string status)
+    {
+        this->first_name=first_name;
+        this->last_name=last_name;
+        this->status=status;
+        user_count++;//incrementing static data member
+    }
+    ~User()//creating a destructor for class User
+    {
+        user_count--;//decrementing static data member
+    }
+    friend std::ostream& operator<<(std::ostream& output,User user);//friend function to display user details
+
+};
+int User::user_count=0;//here we initialize static data member
+
+
+std::ostream& operator<<(std::ostream& output,User user)
+{
+    output<<"First Name: "<<user.first_name<<", Last Name: "<<user.last_name<<", Status: "<<user.get_status()<<std::endl; 
+    output<<"\nStatus:"<<user.status;
+    return output;
+}
+std::istream& operator>>(std::istream& input,User& user)
+{
+    std::cout<<"Enter First Name: ";
+    input>>user.first_name;
+    std::cout<<"Enter Last Name: ";
+    input>>user.last_name;
+    std::cout<<"Enter Status (active/inactive): ";
+    std::string status;
+    input>>status;
+    user.set_status(status);
+    return input;
+
+
+}
+
+int main() 
+{
+User user;
+std::cin>>user;//input 
+std::cout<<"User Output Details:"<<user<<std::endl;//output
+}
+
+*/
+
 
 
 
