@@ -192,6 +192,8 @@ int main()
 }
 
 */
+/*Static Data Members
+
 class User 
 {   static int user_count; //static int user_count=0  x;//can assign static value inline
     
@@ -260,6 +262,8 @@ int main()
    User user,user1,user2;//creating users
    std::cout<<User::get_user_count()<<std::endl;
 }
+*/
+
 
 
 
